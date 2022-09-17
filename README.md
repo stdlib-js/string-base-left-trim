@@ -31,6 +31,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ltrim from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-left-trim@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-left-trim/tags). For example,
+
+```javascript
 import ltrim from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-left-trim@v0.0.1-esm/index.mjs';
 ```
 
@@ -85,7 +90,7 @@ var out = ltrim( ' \r\n\t  Beep \t\t\n  ' );
 <body>
 <script type="module">
 
-import ltrim from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-left-trim@v0.0.1-esm/index.mjs';
+import ltrim from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-left-trim@esm/index.mjs';
 
 var str = ltrim( '   Whitespace   ' );
 // returns 'Whitespace   '
