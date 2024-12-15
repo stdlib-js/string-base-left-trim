@@ -129,6 +129,13 @@ str = ltrim( '\n\n\nNew Lines\n\n\n' );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/string-base/right-trim`][@stdlib/string/base/right-trim]</span><span class="delimiter">: </span><span class="description">trim whitespace characters from the end of a string.</span>
+-   <span class="package-name">[`@stdlib/string-base/trim`][@stdlib/string/base/trim]</span><span class="delimiter">: </span><span class="description">trim whitespace characters from the beginning and end of a string.</span>
+
 </section>
 
 <!-- /.related -->
@@ -206,6 +213,14 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-base-left-trim/main/LICENSE
 
 [unicode]: https://en.wikipedia.org/wiki/Unicode
+
+<!-- <related-links> -->
+
+[@stdlib/string/base/right-trim]: https://github.com/stdlib-js/string-base-right-trim
+
+[@stdlib/string/base/trim]: https://github.com/stdlib-js/string-base-trim
+
+<!-- </related-links> -->
 
 </section>
 
